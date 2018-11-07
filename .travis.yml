@@ -5,5 +5,3 @@ dist: trusty
 jdk:
 - oraclejdk8
 script:
-  - ant build
- 
