@@ -1,0 +1,12 @@
+language: java
+jdk:
+- oraclejdk8
+script: 
+  - ant build
+  - sonar-scanner
+
+addons:
+  sonarcloud:
+    organization: coastbusters
+    token:
+      secure: SONAR_TOKEN
