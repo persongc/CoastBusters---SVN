@@ -1,4 +1,4 @@
-before_script: cd ../coastbusters
+before_script: cd "coastbusters"
 
 language: java
 dist: trusty
