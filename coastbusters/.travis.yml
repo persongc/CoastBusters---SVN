@@ -1,7 +1,9 @@
 language: java
+dist: trusty
 jdk:
 - oraclejdk8
 script:
+  - ant build
   - sonar-scanner
 
 addons:
