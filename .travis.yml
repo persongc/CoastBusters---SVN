@@ -1,7 +1,5 @@
-before_script: cd "coastbusters"
-
 language: java
-dist: trusty
+
 jdk:
 - oraclejdk8
 script:
